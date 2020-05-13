@@ -3,8 +3,8 @@ from typing import List
 import pandas as pd
 from pypfopt import Plotting
 
-from fincrossval.optimizer import OptPortfolio
-from fincrossval.port_cross_val import FinancialCrossValidation
+from optcrossval.optimizer import OptPortfolio
+from optcrossval.port_cross_val import FinancialCrossValidation
 
 
 class Visualizer():

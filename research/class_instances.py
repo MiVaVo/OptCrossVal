@@ -4,10 +4,10 @@ import quantstats as qs
 from pypfopt import CovarianceShrinkage
 
 from configs import *
-from fincrossval.custom_ttt import TimeSeriesSplitLargeTest
-from fincrossval.port_cross_val import OptPortfolio
-from fincrossval.port_custom import Portfolio, BeyoundPortolios, PortfolioPerformance, PortfolioOptimization
-from fincrossval.utils import smartDataReader
+from optcrossval.custom_ttt import TimeSeriesSplitLargeTest
+from optcrossval.port_cross_val import OptPortfolio
+from optcrossval.port_custom import Portfolio, BeyoundPortolios, PortfolioPerformance, PortfolioOptimization
+from optcrossval.utils import smartDataReader
 
 df = smartDataReader(name=COMPANIES_LIST, data_source='yahoo', start=start_date, end=end_date, force_reload=False,
                      retry_count=30)

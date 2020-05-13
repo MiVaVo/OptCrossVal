@@ -4,7 +4,7 @@ import pandas as pd
 import quantstats as qs
 from pandas_datareader import get_data_yahoo
 
-from fincrossval.custom_ttt import TimeSeriesSplitLargeTest
+from optcrossval.custom_ttt import TimeSeriesSplitLargeTest
 
 qs.extend_pandas()
 
@@ -12,7 +12,7 @@ from datetime import datetime
 from configs import start_date, end_date, COMPANIES_LIST
 from research.hypothesis_testing import \
     Ho_mean_expected_returns_are_equal_for_diversivied_and_random_weights
-from fincrossval.utils import get_last_raw, diversify_portfolio, roll, smartDataReader, \
+from optcrossval.utils import get_last_raw, diversify_portfolio, roll, smartDataReader, \
     boostraped_diversify_portfolio
 
 # We would like all available data from 01/01/2000 until 12/31/2016.

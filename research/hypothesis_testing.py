@@ -4,7 +4,7 @@ import scipy.stats as st
 from sklearn.model_selection import train_test_split
 from tqdm import tqdm
 
-from fincrossval.utils import diversify_portfolio
+from optcrossval.utils import diversify_portfolio
 
 
 def Ho_mean_expected_returns_are_equal_for_diversivied_and_random_weights(df):

@@ -4,7 +4,7 @@ import pandas as pd
 
 from configs import COMPANIES_LIST, start_date, end_date
 # User pandas_reader.data.DataReader to load the desired data. As simple as that.
-from fincrossval.utils import smartDataReader
+from optcrossval.utils import smartDataReader
 
 df = smartDataReader(name=COMPANIES_LIST,
                      data_source='yahoo',

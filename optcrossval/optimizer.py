@@ -6,7 +6,7 @@ from pypfopt import EfficientFrontier, expected_returns, risk_models, objective_
 from sklearn.base import BaseEstimator
 
 from configs import *
-from fincrossval.utils import autodetect_frequency
+from optcrossval.utils import autodetect_frequency
 
 
 class OptPortfolio(BaseEstimator):

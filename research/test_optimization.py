@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from fincrossval.utils import diversify_portfolio
+from optcrossval.utils import diversify_portfolio
 
 x = np.random.rand(10000)
 # ax=3*x+np.random.rand(10000)

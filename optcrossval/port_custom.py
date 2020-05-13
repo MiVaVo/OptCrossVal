@@ -5,7 +5,7 @@ import numpy as np
 import scipy.optimize as sco
 from scipy import stats
 
-from fincrossval.utils import deal_with_add_constraints
+from optcrossval.utils import deal_with_add_constraints
 
 
 class PortfolioPerformance():

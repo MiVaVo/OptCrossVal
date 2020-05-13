@@ -3,8 +3,8 @@ from inspect import getmembers, isfunction
 import pandas as pd
 import quantstats as qs
 
-from fincrossval.custom_ttt import TimeSeriesSplitLargeTest
-from fincrossval.optimizer import OptPortfolio
+from optcrossval.custom_ttt import TimeSeriesSplitLargeTest
+from optcrossval.optimizer import OptPortfolio
 
 # type(OptPortfolio)
 functions_list = [o for o in getmembers(qs.stats) if isfunction(o[1])]

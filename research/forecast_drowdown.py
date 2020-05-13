@@ -8,9 +8,9 @@ from tqdm import tqdm
 
 from configs import COMPANIES_LIST, start_date, end_date, OIL_GAZ, CLOTHING, ENTERAINMENT, \
     AIRLINES
-from fincrossval.custom_ttt import TimeSeriesSplitLargeTest
-from fincrossval.port_custom import Portfolio, PortfolioOptimization
-from fincrossval.utils import smartDataReader
+from optcrossval.custom_ttt import TimeSeriesSplitLargeTest
+from optcrossval.port_custom import Portfolio, PortfolioOptimization
+from optcrossval.utils import smartDataReader
 
 df = smartDataReader(name=COMPANIES_LIST, data_source='yahoo', start=start_date, end=end_date, force_reload=False,
                      retry_count=30)

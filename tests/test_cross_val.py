@@ -1,10 +1,10 @@
 import sys
 
-from fincrossval.utils import *
+from optcrossval.utils import *
 
 sys.path.extend(['c:/PycharmProjects/finance/src/'])
 sys.path.extend(['c:/PycharmProjects/finance/'])
-from fincrossval.port_cross_val import *
+from optcrossval.port_cross_val import *
 
 pd.set_option("display.max_columns", 101)
 

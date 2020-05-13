@@ -4,7 +4,7 @@ import numpy as np
 from pandas.core.base import PandasObject as _po
 from quantstats import utils
 
-from fincrossval.utils import autodetect_frequency
+from optcrossval.utils import autodetect_frequency
 
 
 def sharpe(self, rf=0., annualize=True):
