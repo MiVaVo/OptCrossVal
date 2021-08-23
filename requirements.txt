@@ -38,7 +38,7 @@ multiprocess==0.70.9
 multitasking==0.0.9
 nbconvert==5.6.1
 nbformat==5.0.4
-notebook==6.0.3
+notebook==6.4.1
 numdifftools==0.9.39
 numpy==1.18.2
 osqp==0.6.1
